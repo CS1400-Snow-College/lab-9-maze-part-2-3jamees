@@ -42,5 +42,45 @@ do
 
 } while (key != ConsoleKey.Escape);
 
+int top = Console.CursorTop;
+int left = Console.CursorLeft;
 
+ConsoleKey key;
+
+do
+{
+    key = Console.ReadKey(true).Key;
+
+
+    int newTop = top;
+    int newLeft = left;
+
+
+    switch (key)
+    {
+        case ConsoleKey.UpArrow:
+            newTop--;
+            break;
+        case ConsoleKey.DownArrow:
+            newTop++;
+            break;
+        case ConsoleKey.LeftArrow:
+            newLeft--;
+            break;
+        case ConsoleKey.RightArrow:
+            newLeft++;
+            break;
+    }
+
+
+    if (newTop >= 0 && newTop < mapRows.Length &&
+        newLeft >= 0 && newLeft < mapRows[newTop].Length &&
+        mapRows[newTop][newLeft] != '*')
+    {
+        top = newTop;
+        left = newLeft;
+        Console.SetCursorPosition(left, top);
+    }
+
+} while (key != ConsoleKey.Escape);
 
