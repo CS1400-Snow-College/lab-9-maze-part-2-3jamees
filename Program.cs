@@ -17,4 +17,30 @@ foreach (string row in mapRows)
     Console.WriteLine(row);
 }
 
+Console.SetCursorPosition(0, 0); 
+ConsoleKey key;
+
+do
+{
+    key = Console.ReadKey(true).Key;
+
+    switch (key)
+    {
+        case ConsoleKey.UpArrow:
+            Console.CursorTop--;
+            break;
+        case ConsoleKey.DownArrow:
+            Console.CursorTop++;
+            break;
+        case ConsoleKey.LeftArrow:
+            Console.CursorLeft--;
+            break;
+        case ConsoleKey.RightArrow:
+            Console.CursorLeft++;
+            break;
+    }
+
+} while (key != ConsoleKey.Escape);
+
+
 
