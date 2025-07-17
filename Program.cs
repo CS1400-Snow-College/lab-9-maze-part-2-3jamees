@@ -18,7 +18,7 @@
         Console.WriteLine(row);
     }
 
-    int top = 0, left = 0;
+    int top = 1, left = 1;
     int badGuy1Top = 5, badGuy1Left = 5;
     int badGuy2Top = 10, badGuy2Left = 10;
     int score = 0;
@@ -58,8 +58,11 @@
         }
 
             
-            Console.SetCursorPosition(0, mapRows.Length);
+            
+            int scoreRow = Math.Min(mapRows.Length, Console.BufferHeight - 1);
+            Console.SetCursorPosition(0, scoreRow);
             Console.Write("Score: " + score + "   ");
+
 
             
             if (score >= 1000)
