@@ -1,0 +1,15 @@
+C:\Users\12424\my-code-dir\lab-9-maze-part-2-3jamees\bin\Debug\net8.0\lab-9-maze-part-2-3jamees.exe
+C:\Users\12424\my-code-dir\lab-9-maze-part-2-3jamees\bin\Debug\net8.0\lab-9-maze-part-2-3jamees.deps.json
+C:\Users\12424\my-code-dir\lab-9-maze-part-2-3jamees\bin\Debug\net8.0\lab-9-maze-part-2-3jamees.runtimeconfig.json
+C:\Users\12424\my-code-dir\lab-9-maze-part-2-3jamees\bin\Debug\net8.0\lab-9-maze-part-2-3jamees.dll
+C:\Users\12424\my-code-dir\lab-9-maze-part-2-3jamees\bin\Debug\net8.0\lab-9-maze-part-2-3jamees.pdb
+C:\Users\12424\my-code-dir\lab-9-maze-part-2-3jamees\obj\Debug\net8.0\lab-9-maze-part-2-3jamees.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\12424\my-code-dir\lab-9-maze-part-2-3jamees\obj\Debug\net8.0\lab-9-maze-part-2-3jamees.AssemblyInfoInputs.cache
+C:\Users\12424\my-code-dir\lab-9-maze-part-2-3jamees\obj\Debug\net8.0\lab-9-maze-part-2-3jamees.AssemblyInfo.cs
+C:\Users\12424\my-code-dir\lab-9-maze-part-2-3jamees\obj\Debug\net8.0\lab-9-maze-part-2-3jamees.csproj.CoreCompileInputs.cache
+C:\Users\12424\my-code-dir\lab-9-maze-part-2-3jamees\obj\Debug\net8.0\lab-9-maze-part-2-3jamees.sourcelink.json
+C:\Users\12424\my-code-dir\lab-9-maze-part-2-3jamees\obj\Debug\net8.0\lab-9-maze-part-2-3jamees.dll
+C:\Users\12424\my-code-dir\lab-9-maze-part-2-3jamees\obj\Debug\net8.0\refint\lab-9-maze-part-2-3jamees.dll
+C:\Users\12424\my-code-dir\lab-9-maze-part-2-3jamees\obj\Debug\net8.0\lab-9-maze-part-2-3jamees.pdb
+C:\Users\12424\my-code-dir\lab-9-maze-part-2-3jamees\obj\Debug\net8.0\lab-9-maze-part-2-3jamees.genruntimeconfig.cache
+C:\Users\12424\my-code-dir\lab-9-maze-part-2-3jamees\obj\Debug\net8.0\ref\lab-9-maze-part-2-3jamees.dll
