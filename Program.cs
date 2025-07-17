@@ -135,4 +135,14 @@ if (mapRows[top][left] == '^')
 Console.SetCursorPosition(0, mapRows.Length);
 Console.Write("Score: " + score);
 
+if (score >= 1000)
+{
+    int middleRow = mapRows.Length / 2;
+    int middleCol = mapRows[middleRow].Length / 2;
+
+    mapRows[middleRow] = mapRows[middleRow].Remove(middleCol, 1).Insert(middleCol, " ");
+    Console.SetCursorPosition(middleCol, middleRow);
+    Console.Write(' ');
+}
+
 
