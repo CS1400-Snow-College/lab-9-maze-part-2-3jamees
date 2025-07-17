@@ -145,4 +145,15 @@ if (score >= 1000)
     Console.Write(' ');
 }
 
+DateTime startTime = DateTime.Now;
+if (mapRows[top][left] == '#')
+{
+    Console.Clear();
+    Console.WriteLine("Congratulations! You won!");
+    Console.WriteLine($"Score: {score}");
+
+    TimeSpan time = DateTime.Now - startTime;
+    Console.WriteLine($"Time in maze: {time.TotalSeconds:F1} seconds");
+    return;
+}
 
